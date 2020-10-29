@@ -1,0 +1,78 @@
+tete {
+  color: rgb(6, 167, 189);
+  font-family: Verdana, "Helvetica Neue", Helvetica, sans-serif;
+  background-repeat: repeat-x;
+  display: flex;
+  height: 20%;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 20% 30% auto 10% 10%;
+  height: 90px;
+  color: rgb(0, 225, 255);
+}
+
+.logocentral {
+  width: 120px !important;
+}
+
+.logo img {
+  width: 90px;
+}
+
+.bandeau {
+  width: 100%;
+}
+cou {
+  color: rgb(6, 167, 189);
+  -webkit-text-stroke: aliceblue 3px;
+  font-family: Verdana, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 25px;
+}
+.h1 {
+  margin-left: 5%;
+  color: rgb(6, 167, 189);
+  font-family: Verdana, "Helvetica Neue", Helvetica, sans-serif;
+}
+h2 {
+  color: rgb(6, 167, 189);
+  font-family: Verdana, "Helvetica Neue", Helvetica, sans-serif;
+}
+.contenu {
+  display: grid;
+  grid-template-columns: 60% 30%;
+  gap: 60px;
+} /* #contenu {
+  border: 3px solid lime;
+  float: left;
+} */
+.wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 1em;
+}
+figcaption {
+  font-family: Verdana, "Helvetica Neue", Helvetica, sans-serif;
+  color: rgb(6, 167, 189);
+}
+.voiture {
+  width: 100%;
+}
+.voiture img {
+  margin: 0px;
+  padding: 0px;
+}
+.Smiley {
+  width: 10%;
+}
+.coté-Droit {
+  font-family: Verdana, "Helvetica Neue", Helvetica, sans-serif;
+  color: rgb(6, 167, 189);
+}
+.CARTE {
+  width: 100%;
+}
+.CARTE img {
+  width: 100%;
+}

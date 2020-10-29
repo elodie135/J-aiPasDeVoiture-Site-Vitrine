@@ -1,0 +1,75 @@
+body {
+  background-color: #fff7ff;
+}
+header {
+  font-family: Verdana, "Helvetica Neue", Helvetica, sans-serif;
+}
+.bandeau {
+  width: 100%;
+}
+
+#banniere {
+  background-repeat: repeat-x;
+  height: 10%;
+  width: 100%;
+}
+#banniere1,
+#banniere2,
+#banniere3,
+#banniere4 {
+  display: inline;
+  /*padding: 5px;*/
+  text-align: center;
+  /*position: fixed;*/
+}
+
+}
+h1 {
+  margin-left: 5%;
+  
+}
+
+.contenu {
+  display: grid;
+  grid-template-columns: 60% 25%;
+  gap: 2em;
+} /* #contenu {
+  border: 3px solid lime;
+  float: left;
+} */
+.wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 1em;
+}
+
+.annonce {
+  margin: 5%;
+}
+
+.voiture {
+  width: 100%;
+}
+.voiture img {
+  margin: 0px;
+  padding: 0px;
+}
+figcaption {
+  font-family: Verdana, "Helvetica Neue", Helvetica, sans-serif;
+  color: rgb(6, 167, 189);
+}
+.Smiley {
+  width: 10%;
+}
+
+.section2 {
+}
+p {
+  width: 45%;
+  float: right;
+}
+
+#menu {
+  border: 3px solid;
+  float: left;
+}
